@@ -46,14 +46,14 @@ WHITESPACE
  }
 
  body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
  }
 
  .section-hero {
-  background: #f1f3f5;
+  background: #fdf2e9;
   padding: 9.6rem 0;
   
  }
@@ -64,7 +64,6 @@ WHITESPACE
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
-  background: #fdf2e9;
  }
 
 .heading-primary {
@@ -78,20 +77,18 @@ WHITESPACE
 
 .hero-description {
   font-size: 2rem;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 4.8rem;
 }
 
- .hero-img {
-  width: 100%;
- }
-
  .btn:link, 
  .btn:visited {
+  display: inline-block;
   font-size: 2rem;
-  padding: 1.6rem  3.2rem;
+  padding: 1.6rem 3.2rem;
   border-radius: 9px;
   text-decoration: none;
+  font-weight: 600;
   transition: all 1s;
  }
 
@@ -119,6 +116,54 @@ WHITESPACE
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px #fff;
  }
+
+ .hero-img {
+  width: 100%;
+ }
+
+ .margin-right-sm {
+  margin-right: 1.6rem !important;
+ }
+
+ .delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+  
+ }
+
+ .delivered-imgs {
+  display: flex;
+  
+ }
+
+ .delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid  #fdf2e9;
+ }
+
+ .delivered-imgs img:last-child {
+  margin: 0;
+ }
+
+
+ .delivered-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+ }
+
+ .delivered-text span {
+  color:#cf711f;
+ }
+
+
+
+
+
  
 
 
