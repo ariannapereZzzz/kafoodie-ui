@@ -42,6 +42,7 @@ WHITESPACE
 
  html {
   font-size: 62.5%;
+  overflow-x: hidden;
  }
 
  body {
@@ -49,15 +50,16 @@ WHITESPACE
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
  }
 
 /* GENERAL REUSABLES */
 
- .section-hero {
+ /* .section-hero {
   background: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
   
- }
+ } */
 
  .heading-primary, 
  .heading-secondary {
@@ -176,6 +178,7 @@ WHITESPACE
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
@@ -233,6 +236,11 @@ WHITESPACE
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 
 .grid--center-v {
 align-items: center;
